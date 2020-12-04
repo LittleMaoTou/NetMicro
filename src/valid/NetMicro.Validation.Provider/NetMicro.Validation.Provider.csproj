@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\web\NetMicro.Web.Provider\NetMicro.Web.Provider.csproj" />
+    <ProjectReference Include="..\NetMicro.Validation.Abstractions\NetMicro.Validation.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

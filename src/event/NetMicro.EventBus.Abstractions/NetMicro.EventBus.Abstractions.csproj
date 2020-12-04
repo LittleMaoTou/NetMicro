@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.Kafka" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.MySql" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.SqlServer" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\cache\NetMicro.Cache.Provider\NetMicro.Cache.Provider.csproj" />
+    <ProjectReference Include="..\..\core\NetMicro.Core\NetMicro.Core.csproj" />
+    <ProjectReference Include="..\..\data\NetMicro.Data.Provider\NetMicro.Data.Provider.csproj" />
+    <ProjectReference Include="..\..\valid\NetMicro.Validation.Provider\NetMicro.Validation.Provider.csproj" />
+  </ItemGroup>
+
+</Project>
