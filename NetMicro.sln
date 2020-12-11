@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Core", "src\core\N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Web.Provider", "src\web\NetMicro.Web.Provider\NetMicro.Web.Provider.csproj", "{21D74011-057E-4213-AE99-DED6B13A80D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Application.Provider", "src\application\NetMicro.Application.Provider\NetMicro.Application.Provider.csproj", "{5AB65083-B9A9-4F08-9DAB-3AD8131D53D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Application.Provider", "src\application\NetMicro.Application.Provider\NetMicro.Application.Provider.csproj", "{5AB65083-B9A9-4F08-9DAB-3AD8131D53D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "valid", "valid", "{C2432269-C171-4078-8EB9-D40F9F348A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Validation.Abstractions", "src\valid\NetMicro.Validation.Abstractions\NetMicro.Validation.Abstractions.csproj", "{B67FFAEF-FB48-4C1D-9FED-9F0F2E5D7110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Validation.Abstractions", "src\valid\NetMicro.Validation.Abstractions\NetMicro.Validation.Abstractions.csproj", "{B67FFAEF-FB48-4C1D-9FED-9F0F2E5D7110}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{F99C1AE4-6C56-40B0-98EC-398A56AB5ECB}"
 EndProject
@@ -27,33 +27,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Validation.Provide
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mapper", "mapper", "{39C9998B-F507-4EB8-AFDE-14803076890E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Mapper.Provider", "src\mapper\NetMicro.Mapper.Provider\NetMicro.Mapper.Provider.csproj", "{96B84ECF-2AF9-4E1C-97DD-799548F053B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Mapper.Provider", "src\mapper\NetMicro.Mapper.Provider\NetMicro.Mapper.Provider.csproj", "{96B84ECF-2AF9-4E1C-97DD-799548F053B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "elasticsearch", "elasticsearch", "{AACE4657-7FD2-4CBD-8DBC-2A823C4DACF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Elasticsearch.Provider", "src\elasticsearch\NetMicro.Elasticsearch.Provider\NetMicro.Elasticsearch.Provider.csproj", "{3D638209-178F-4FF1-94AE-FBDC46273B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Elasticsearch.Provider", "src\elasticsearch\NetMicro.Elasticsearch.Provider\NetMicro.Elasticsearch.Provider.csproj", "{3D638209-178F-4FF1-94AE-FBDC46273B93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{D7AE0C89-16DC-4DCC-85C0-BCBBCC1D537D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Data.Abstractions", "src\data\NetMicro.Data.Abstractions\NetMicro.Data.Abstractions.csproj", "{122A3419-6584-483C-A8A3-3B5CBF1160EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Data.Abstractions", "src\data\NetMicro.Data.Abstractions\NetMicro.Data.Abstractions.csproj", "{122A3419-6584-483C-A8A3-3B5CBF1160EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Data.Provider", "src\data\NetMicro.Data.Provider\NetMicro.Data.Provider.csproj", "{2E2CB3B2-044A-4190-B487-36BECCD37E52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Data.Provider", "src\data\NetMicro.Data.Provider\NetMicro.Data.Provider.csproj", "{2E2CB3B2-044A-4190-B487-36BECCD37E52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cache", "cache", "{94D04B27-6FC4-45D5-BBA5-26B10DEF19EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Cache.Abstractions", "src\cache\NetMicro.Cache.Abstractions\NetMicro.Cache.Abstractions.csproj", "{2736E4F1-3C18-4563-8D29-F5E11B5BD056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Cache.Abstractions", "src\cache\NetMicro.Cache.Abstractions\NetMicro.Cache.Abstractions.csproj", "{2736E4F1-3C18-4563-8D29-F5E11B5BD056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.Cache.Provider", "src\cache\NetMicro.Cache.Provider\NetMicro.Cache.Provider.csproj", "{74CD6056-9463-47FC-AA7B-FCEC5B961346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.Cache.Provider", "src\cache\NetMicro.Cache.Provider\NetMicro.Cache.Provider.csproj", "{74CD6056-9463-47FC-AA7B-FCEC5B961346}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "event", "event", "{C9A45465-C54C-44A5-8FDC-29470D58A176}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.EventBus.Abstractions", "src\event\NetMicro.EventBus.Abstractions\NetMicro.EventBus.Abstractions.csproj", "{81A29425-EC8A-4F47-A4B7-3D2CD261A4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.EventBus.Abstractions", "src\event\NetMicro.EventBus.Abstractions\NetMicro.EventBus.Abstractions.csproj", "{81A29425-EC8A-4F47-A4B7-3D2CD261A4EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.EventBus.Provider", "src\event\NetMicro.EventBus.Provider\NetMicro.EventBus.Provider.csproj", "{C4FB302E-1EC4-4545-8689-06C9B1A34C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.EventBus.Provider", "src\event\NetMicro.EventBus.Provider\NetMicro.EventBus.Provider.csproj", "{C4FB302E-1EC4-4545-8689-06C9B1A34C66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log", "log", "{65D1E50B-E054-4A1A-8311-795EF3CE046A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMicro.NLog.Provider", "src\log\NetMicro.NLog.Provider\NetMicro.NLog.Provider.csproj", "{194D8639-5AFD-4E86-9FE3-97CD9A6204F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetMicro.NLog.Provider", "src\log\NetMicro.NLog.Provider\NetMicro.NLog.Provider.csproj", "{194D8639-5AFD-4E86-9FE3-97CD9A6204F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{63A85C5D-767D-4341-8BCC-5A78D30B77AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQ.Test", "sample\MQ.Test\MQ.Test.csproj", "{31EB3075-8198-4FF2-A0F3-CA1790DFCECA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,10 @@ Global
 		{194D8639-5AFD-4E86-9FE3-97CD9A6204F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194D8639-5AFD-4E86-9FE3-97CD9A6204F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194D8639-5AFD-4E86-9FE3-97CD9A6204F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EB3075-8198-4FF2-A0F3-CA1790DFCECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EB3075-8198-4FF2-A0F3-CA1790DFCECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EB3075-8198-4FF2-A0F3-CA1790DFCECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EB3075-8198-4FF2-A0F3-CA1790DFCECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +154,7 @@ Global
 		{C4FB302E-1EC4-4545-8689-06C9B1A34C66} = {C9A45465-C54C-44A5-8FDC-29470D58A176}
 		{65D1E50B-E054-4A1A-8311-795EF3CE046A} = {2A33B7AD-67B9-4C62-BB18-A99773113979}
 		{194D8639-5AFD-4E86-9FE3-97CD9A6204F7} = {65D1E50B-E054-4A1A-8311-795EF3CE046A}
+		{31EB3075-8198-4FF2-A0F3-CA1790DFCECA} = {63A85C5D-767D-4341-8BCC-5A78D30B77AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E5CB28F-79D4-4360-82F7-B1AE5450277C}
